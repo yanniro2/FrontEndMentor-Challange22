@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FrontEndMentor-Challange22/static/css/main.ff94bde2.css",
+    "main.js": "/FrontEndMentor-Challange22/static/js/main.01c925c3.js",
+    "static/js/787.a97cb00a.chunk.js": "/FrontEndMentor-Challange22/static/js/787.a97cb00a.chunk.js",
+    "index.html": "/FrontEndMentor-Challange22/index.html",
+    "static/media/icon-dice.svg": "/FrontEndMentor-Challange22/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-mobile.svg": "/FrontEndMentor-Challange22/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.ff94bde2.css.map": "/FrontEndMentor-Challange22/static/css/main.ff94bde2.css.map",
+    "main.01c925c3.js.map": "/FrontEndMentor-Challange22/static/js/main.01c925c3.js.map",
+    "787.a97cb00a.chunk.js.map": "/FrontEndMentor-Challange22/static/js/787.a97cb00a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff94bde2.css",
+    "static/js/main.01c925c3.js"
+  ]
+}
