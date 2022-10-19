@@ -1,12 +1,18 @@
 import "./index.css"
 import divider from "./images/pattern-divider-mobile.svg"
 import dice from "./images/icon-dice.svg"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function App()
 {
 
-  const [messgage, setMessage] = useState([]);
+  const [messgage, setMessage] = useState(
+    {
+      id: "2",
+      advice: "Smile and the world smiles with you. Frown and you're on your own."
+    }
+  );
 
+  console.log(messgage);
 
   const handleClick = async () =>
   {
@@ -24,7 +30,7 @@ function App()
 
   return (
     <div className="App h-screen w-screen font-Manrope m-0 p-0 box-border bg-Dark-Blue flex items-center justify-center">
-      <div className="content w-1/3 h-2/5 bg-Dark-Grayish-Blue rounded-xl flex flex-col items-center justify-between relative drop-shadow shadow-xl p-10 Mobile:w-11/12 Tab:w-1/2">
+      <div className="content w-1/3 h-2/5 bg-Dark-Grayish-Blue rounded-xl flex flex-col items-center justify-between relative drop-shadow shadow-xl p-10 Mobile:w-11/12 Tab:w-1/2 Desktop:h-1/5">
         <h4 className=" text-Neon-Green uppercase text-[14px] tracking-widest font-[100]">advice #{messgage.id}</h4>
         <h3 className="text-[20px] text-Light-Cyan text-center font-Manrope">
           "{messgage.advice}"
