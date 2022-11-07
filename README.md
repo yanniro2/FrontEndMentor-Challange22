@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app
+# Frontend Mentor - Advice generator Api App
 
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
